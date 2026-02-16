@@ -1,0 +1,6 @@
+smolagents 
+litellm 
+smolagents[gradio]
+langchain 
+langchain-ollama
+mcp

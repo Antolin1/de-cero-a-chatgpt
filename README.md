@@ -1,2 +1,111 @@
-# de-cero-a-chatgpt
-Materiales del curso "De cero a ChatGPT"
+# De cero a ChatGPT
+
+Este repositorio contiene los materiales del curso "De cero a ChatGPT" impartido en el CIFP Carlos III.
+
+Organización del README:
+- **Requisitos básicos** que es necesario **tener instalados antes de la primera sesión**.
+- **Entorno de Python para los contenidos de deep learning** (días 1,2,3 y primera parte del día 4). Sería ideal tenerlo listo antes de la primera sesión, pero no es imprescindible.
+- **Entorno de Python para los contenidos de agentes** (segunda parte del día 4). Sería ideal tenerlo listo antes de la cuarta sesión, pero no es imprescindible. Se recomienda encarecidamente tener instalado Ollama antes de la cuarta sesión.
+- **Tabla con los notebooks** y sus links a colab. Esto es como una contigencia que solo aplica en algunos casos por si alguien tiene problemas para configurar su entorno local.
+
+
+
+
+## Requisitos
+
+
+### Sistema operativo
+
+Se recomienda usar Linux. Si usáis Windows, se recomienda usar WSL2 con Ubuntu.
+
+### VS Code
+
+Instalar [Visual Studio Code](https://code.visualstudio.com/). Se recomienda instalar las siguientes extensiones:
+- Python
+- Jupyter
+- WSL (si usáis WSL2)
+- GitHub Copilot
+
+### Conda
+
+Conda es un sistema de gestión de paquetes y entornos virtuales. Se recomienda instalar [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (Anaconda también es una opción, pero Miniconda es más ligera).
+
+### Docker
+
+Instalar [Docker Desktop](https://docs.docker.com/get-docker/). Docker se usará para ejecutar Ollama y servidores MCP.
+
+### Cuenta de Ollama y API KEY
+
+Crear una cuenta en [Ollama](https://ollama.com/). Ollama expone en la nube varios modelos que podemos usar para hacer pruebas. Sacad también un [token de acceso](https://docs.ollama.com/cloud#authentication).
+
+### Cuenta de Gemini y API KEY
+
+Sacad una [API KEY](https://ai.google.dev/gemini-api/docs/api-key) para usar Gemini desde código. Este LLM lo usaremos para agentes.
+
+### Habilita el GitHub Copilot en el VS Code
+
+Tenéis que [activar](https://code.visualstudio.com/docs/copilot/overview#_getting-started) el GitHub Copilot de vuestro VS Code. Creo que hay un plan gratuito limitado. Sin embargo, os recomiendo encarecidamente que cojáis la versión pro. Los docentes tienen acceso gratuito si se aplica a [GitHub Education](https://docs.github.com/en/education/about-github-education/github-education-for-teachers/about-github-education-for-teachers). Una vez aplicado, se puede solicitar el acceso a GitHub Copilot [aquí](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro#about-free-github-copilot-pro-access).
+
+
+
+## Entorno para contenidos de deep learning (días 1,2,3 y primera parte del día 4)
+
+Vamos a manejar dos entornos de Python: uno para los contenidos de deep learning y otro para los contenidos relacionados con agentes. Esto es así debido a conflictos de dependencias entre las librerías usadas en cada uno de los tópicos.
+
+Los entornos
+
+1. Crear el entorno de deep learning:
+
+```bash
+conda create -n deep_learning python=3.11 -y
+```
+
+2. Activar el entorno:
+
+```bash
+conda activate deep_learning
+```
+
+3. Instalar Pytorch siguiendo las instrucciones de la [página oficial](https://pytorch.org/get-started/locally/). Si tenéis GPU Nvidia, instalar la versión con soporte CUDA. Seleccionad Stable, Linux, pip, Python, y vuestra versión de CUDA (si tenéis GPU Nvidia) o CPU en su defecto.
+
+4. Instalar las dependencias:
+
+```bash
+pip install -r requirements-dl.txt
+```
+
+5. Instalar Jupyter:
+
+```bash
+conda install -c conda-forge notebook
+```
+
+6. Configurar el intérprete de Python en VS Code para que use el entorno `deep_learning`. Para ello, abrir la paleta de comandos (Ctrl+Shift+P), escribir "Python: Select Interpreter" y seleccionar el entorno `deep_learning`.
+
+## Entorno para contenidos de agentes (segunda parte del día 4)
+
+1. Crear el entorno de agentes:
+
+```bash
+conda create -n agents python=3.11 -y
+```
+
+2. Activar el entorno:
+
+```bash
+conda activate agents
+```
+
+3. Instalar las dependencias:
+
+```bash
+pip install -r requirements-agents.txt
+```
+
+4. Descargar la imagen de Ollama siguiendo las instrucciones de la [página oficial](https://hub.docker.com/r/ollama/ollama). Asegurarse de que Docker está corriendo antes de iniciar Ollama. Si tenéis GPU, seguid las instrucciones para correr Ollama con soporte GPU.
+
+5. Configurar el intérprete de Python en VS Code para que use el entorno `agents`. Para ello, abrir la paleta de comandos (Ctrl+Shift+P), escribir "Python: Select Interpreter" y seleccionar el entorno `agents`.
+
+Si se va a utilizar Ollama el contenedor debe estar corriendo. Si se ha terminado con Ollama, recomiendo pausar el contenedor.
+
+## Tabla con notebooks

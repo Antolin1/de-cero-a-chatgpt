@@ -1,0 +1,13 @@
+matplotlib 
+scikit-learn 
+torchviz 
+datasets 
+evaluate 
+transformers 
+accelerate 
+protobuf 
+sentencepiece 
+trl 
+peft 
+tokenizers
+ollama
