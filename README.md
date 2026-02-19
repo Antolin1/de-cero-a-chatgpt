@@ -6,7 +6,7 @@ Organización del README:
 - **Requisitos básicos** que es necesario **tener instalados antes de la primera sesión**.
 - **Entorno de Python para los contenidos de deep learning** (días 1,2,3 y primera parte del día 4). Sería ideal tenerlo listo antes de la primera sesión, pero no es imprescindible.
 - **Entorno de Python para los contenidos de agentes** (segunda parte del día 4). Sería ideal tenerlo listo antes de la cuarta sesión, pero no es imprescindible. Se recomienda encarecidamente tener instalado Ollama antes de la cuarta sesión.
-- **Tabla con los notebooks** y sus links a colab. Esto es como una contigencia que solo aplica en algunos casos por si alguien tiene problemas para configurar su entorno local.
+- **Tabla con los notebooks y otros contenidos**. Los notebooks incluyen links a colab. Esto es como una contigencia que solo aplica en algunos casos por si alguien tiene problemas para configurar su entorno local.
 
 
 
