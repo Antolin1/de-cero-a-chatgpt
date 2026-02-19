@@ -28,7 +28,7 @@ Instalar [Visual Studio Code](https://code.visualstudio.com/). Se recomienda ins
 
 ### Conda
 
-Conda es un sistema de gestión de paquetes y entornos virtuales. Se recomienda instalar [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (Anaconda también es una opción, pero Miniconda es más ligera).
+Conda es un sistema de gestión de paquetes y entornos virtuales. Se recomienda instalar [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (Anaconda también es una opción, pero Miniconda es más ligera). Cuando esté instalado, debe salir en un terminal el mensaje `(base)`, lo que indica que el entorno base de conda está activo.
 
 ### Docker
 
@@ -66,7 +66,7 @@ conda create -n deep_learning python=3.11 -y
 conda activate deep_learning
 ```
 
-3. Instalar Pytorch siguiendo las instrucciones de la [página oficial](https://pytorch.org/get-started/locally/). Si tenéis GPU Nvidia, instalar la versión con soporte CUDA. Seleccionad Stable, Linux, pip, Python, y vuestra versión de CUDA (si tenéis GPU Nvidia) o CPU en su defecto.
+3. Instalar Pytorch siguiendo las instrucciones de la [página oficial](https://pytorch.org/get-started/locally/). Si tenéis GPU Nvidia, instalar la versión con soporte CUDA. Seleccionad Stable, Linux, pip, Python, y vuestra versión de CUDA (si tenéis GPU Nvidia; se puede checkear con `nvidia-smi`) o CPU en su defecto.
 
 4. Instalar las dependencias:
 
@@ -102,10 +102,25 @@ conda activate agents
 pip install -r requirements-agents.txt
 ```
 
-4. Descargar la imagen de Ollama siguiendo las instrucciones de la [página oficial](https://hub.docker.com/r/ollama/ollama). Asegurarse de que Docker está corriendo antes de iniciar Ollama. Si tenéis GPU, seguid las instrucciones para correr Ollama con soporte GPU.
+4. Instalar Jupyter:
 
-5. Configurar el intérprete de Python en VS Code para que use el entorno `agents`. Para ello, abrir la paleta de comandos (Ctrl+Shift+P), escribir "Python: Select Interpreter" y seleccionar el entorno `agents`.
+```bash
+conda install -c conda-forge notebook
+```
+
+5. Descargar la imagen de Ollama siguiendo las instrucciones de la [página oficial](https://hub.docker.com/r/ollama/ollama). Asegurarse de que Docker está corriendo antes de iniciar Ollama. Si tenéis GPU, seguid las instrucciones para correr Ollama con soporte GPU.
+
+6. Configurar el intérprete de Python en VS Code para que use el entorno `agents`. Para ello, abrir la paleta de comandos (Ctrl+Shift+P), escribir "Python: Select Interpreter" y seleccionar el entorno `agents`.
 
 Si se va a utilizar Ollama el contenedor debe estar corriendo. Si se ha terminado con Ollama, recomiendo pausar el contenedor.
 
 ## Tabla con notebooks
+
+| Día | Notebook | Open in Colab |
+|-----|----------|---------------|
+| 1 | [Día 1 - Introducción a Deep Learning](dia-1/notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/de-cero-a-chatgpt/blob/main/dia-1/notebook.ipynb) |
+| 2 | [Día 2 - Redes Neuronales](dia-2/notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/de-cero-a-chatgpt/blob/main/dia-2/notebook.ipynb) |
+| 3 | [Día 3 - Aplicaciones Prácticas](dia-3/notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/de-cero-a-chatgpt/blob/main/dia-3/notebook.ipynb) |
+| 4 | [Día 4 - Agentes Inteligentes y ChatGPT](dia-4/notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/de-cero-a-chatgpt/blob/main/dia-4/notebook.ipynb) |
+
+> **Nota:** Reemplaza `YOUR_GITHUB_USERNAME` con tu usuario de GitHub en los links de Colab. Si el repositorio es público puedes usar directamente los links.
