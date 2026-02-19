@@ -1,6 +1,8 @@
 smolagents 
 litellm 
 smolagents[gradio]
+smolagents[openai]
 langchain 
 langchain-ollama
+langchain-google-genai
 mcp

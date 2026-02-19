@@ -11,3 +11,4 @@ trl
 peft 
 tokenizers
 ollama
+google-genai

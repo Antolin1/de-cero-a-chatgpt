@@ -66,7 +66,7 @@ conda create -n deep_learning python=3.11 -y
 conda activate deep_learning
 ```
 
-3. Instalar Pytorch siguiendo las instrucciones de la [página oficial](https://pytorch.org/get-started/locally/). Si tenéis GPU Nvidia, instalar la versión con soporte CUDA. Seleccionad Stable, Linux, pip, Python, y vuestra versión de CUDA (si tenéis GPU Nvidia; se puede checkear con `nvidia-smi`) o CPU en su defecto.
+3. Instalar Pytorch siguiendo las instrucciones de la [página oficial](https://pytorch.org/get-started/locally/). Si tenéis GPU Nvidia, instalar la versión con soporte CUDA. Seleccionad Stable, Linux, pip, Python, y vuestra versión de CUDA (si tenéis GPU Nvidia; se puede checkear con `nvidia-smi`) o CPU en su defecto. Ejecutar el comando que se genera en la terminal para instalar Pytorch.
 
 4. Instalar las dependencias:
 
@@ -116,11 +116,13 @@ Si se va a utilizar Ollama el contenedor debe estar corriendo. Si se ha terminad
 
 ## Tabla con notebooks
 
-| Día | Notebook | Open in Colab |
-|-----|----------|---------------|
-| 1 | [Día 1 - Introducción a Deep Learning](dia-1/notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/de-cero-a-chatgpt/blob/main/dia-1/notebook.ipynb) |
-| 2 | [Día 2 - Redes Neuronales](dia-2/notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/de-cero-a-chatgpt/blob/main/dia-2/notebook.ipynb) |
-| 3 | [Día 3 - Aplicaciones Prácticas](dia-3/notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/de-cero-a-chatgpt/blob/main/dia-3/notebook.ipynb) |
-| 4 | [Día 4 - Agentes Inteligentes y ChatGPT](dia-4/notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/de-cero-a-chatgpt/blob/main/dia-4/notebook.ipynb) |
+### Día 1
 
-> **Nota:** Reemplaza `YOUR_GITHUB_USERNAME` con tu usuario de GitHub en los links de Colab. Si el repositorio es público puedes usar directamente los links.
+Los siguientes notebooks pertenecen al Día 1:
+
+| Notebook | Open in Colab |
+|----------|---------------|
+| [1. Gradiente Descendente](dia1/1_gradiente_descendente.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia1/1_gradiente_descendente.ipynb) |
+| [2. Los Tres Ingredientes](dia1/2_los_tres_ingredientes.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia1/2_los_tres_ingredientes.ipynb) |
+| [3. Regularización](dia1/3_regularizacion.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia1/3_regularizacion.ipynb) |
+| [4. Ejercicio Final](dia1/4_ejercicio_final.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia1/4_ejercicio_final.ipynb) |
