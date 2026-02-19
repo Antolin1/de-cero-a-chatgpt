@@ -126,3 +126,22 @@ Los siguientes notebooks pertenecen al Día 1:
 | [2. Los Tres Ingredientes](dia1/2_los_tres_ingredientes.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia1/2_los_tres_ingredientes.ipynb) |
 | [3. Regularización](dia1/3_regularizacion.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia1/3_regularizacion.ipynb) |
 | [4. Ejercicio Final](dia1/4_ejercicio_final.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia1/4_ejercicio_final.ipynb) |
+
+### Día 2
+
+Los siguientes notebooks pertenecen al Día 2:
+
+| Notebook | Open in Colab |
+|----------|---------------|
+| [Tokenizer, RNN, LSTM, GRU](dia2/tokenizer_rnn_lstm_gru.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia2/tokenizer_rnn_lstm_gru.ipynb) |
+
+### Día 3
+
+Los siguientes notebooks pertenecen al Día 3:
+
+| Notebook | Open in Colab |
+|----------|---------------|
+| [1. Encoder](dia3/1_encoder.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia3/1_encoder.ipynb) |
+| [2. Encoder Random](dia3/2_encoder_random.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia3/2_encoder_random.ipynb) |
+| [3. Ejercicio Encoder](dia3/3_ejercicio_encoder.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia3/3_ejercicio_encoder.ipynb) |
+| [Transformer](dia3/transformer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia3/transformer.ipynb) |
