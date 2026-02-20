@@ -14,9 +14,9 @@ Organización del README:
 ## Requisitos
 
 
-### Sistema operativo
+### Sistema operativo y Git
 
-Se recomienda usar Linux. Si usáis Windows, se recomienda usar WSL2 con Ubuntu.
+Se recomienda usar Linux. Si usáis Windows, se recomienda usar [WSL2](https://learn.microsoft.com/es-es/windows/wsl/install) con Ubuntu. [Git](https://git-scm.com/install/) debe estar instalado.
 
 ### VS Code
 
