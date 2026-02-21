@@ -156,6 +156,7 @@ Los siguientes notebooks pertenecen al Día 4.1:
 | [Decoder SFT 1](dia4-1/5_decoder_sft_1.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-1/5_decoder_sft_1.ipynb) |
 | [Decoder SFT LoRA](dia4-1/5_decoder_sft_lora.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-1/5_decoder_sft_lora.ipynb) |
 | [Número Parámetros](dia4-1/6_numero_parametros.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-1/6_numero_parametros.ipynb) |
+| [Inferencia HF](dia4-1/7_inferencia_hf.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-1/7_inferencia_hf.ipynb) |
 
 ### Día 4.2
 
@@ -163,8 +164,8 @@ Los siguientes notebooks pertenecen al Día 4.2:
 
 | Notebook | Open in Colab |
 |----------|---------------|
-| [0. Ollama](dia4-2/0_ollama.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-2/0_ollama.ipynb) |
-| [1. Smolagents](dia4-2/1_smolagents.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-2/1_smolagents.ipynb) |
-| [2. Langchain Agent](dia4-2/2_langchain_agent.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-2/2_langchain_agent.ipynb) |
+| [Ollama](dia4-2/0_ollama.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-2/0_ollama.ipynb) |
+| [Smolagents](dia4-2/1_smolagents.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-2/1_smolagents.ipynb) |
+| [Langchain Agent](dia4-2/2_langchain_agent.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Antolin1/de-cero-a-chatgpt/blob/main/dia4-2/2_langchain_agent.ipynb) |
 
 El enunciado del ejercicio MCP se encuentra [aquí](dia4-2/MCP-Ejercicio.md).
