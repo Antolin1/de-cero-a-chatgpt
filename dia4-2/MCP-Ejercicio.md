@@ -23,9 +23,9 @@
 
 # Ejercicio MCP I
 
-   Crea una servidor MCP que se conecte a la base de datos `Chinook_Sqlite.sqlite` y responda preguntas en lenguaje natural. 
+Crea una servidor MCP que se conecte a la base de datos `Chinook_Sqlite.sqlite` y responda preguntas en lenguaje natural. Conéctalo con GitHub Copilot del VS Code.
 
-   **Pistas**: El dockerfile debe instalar las liberías necesarias y copiar la base de datos al contenedor (junto con el script que implementa el servidor MCP).
+**Pistas**: El Dockerfile debe instalar las liberías necesarias y copiar la base de datos al contenedor (junto con el script que implementa el servidor MCP).
 
 # Ejercicio MCP II
 
